@@ -1,11 +1,11 @@
 import { useState } from "react";
 import "./index.css";
 
-import { Step1_Monolithic } from "./todo/Step1_Monolithic";
-import { Step2_PresentationalContainer } from "./todo/Step2_PresentationalContainer";
-import { Step3_CustomHook } from "./todo/Step3_CustomHook";
-import { Step4_CompoundComponent } from "./todo/Step4_CompoundComponent";
-import { MyPractice } from "./practice/MyPractice";
+import { Step1_Monolithic } from "./todo/Step1_Monolithic.tsx";
+import { Step2_PresentationalContainer } from "./todo/Step2_PresentationalContainer.tsx";
+import { Step3_CustomHook } from "./todo/Step3_CustomHook.tsx";
+import { Step4_CompoundComponent } from "./todo/Step4_CompoundComponent.tsx";
+import { MyPractice } from "./practice/MyPractice.tsx";
 
 const STEPS = [
   {
